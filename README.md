@@ -42,6 +42,8 @@ If your program cannot connect to Buzz, make sure you put your Buzz in pairing m
 ## Paring 
 Whether for the connect_and_vibrate.ino example or for your own project, you'll need to put Buzz into pairing mode the first time you connect to it. To do this, turn on your Buzz wristband and press and hold the plus and minus buttons on top of your Buzz. Buzz will show three blue LEDs and then a random pattern of LEDs (which is included in the advertising packet information in case you need to differentiate from several different Buzzes in pairing mode, but for most situations can be ignored).
 
+## Troubleshooting
+If you notice `BLEClient::connect` is stuck. You may need to tweak FreeRTOS.cpp file which is shipped with ESP32 board libraries. Checkout this [issue](https://github.com/nkolban/esp32-snippets/issues/874) for more. You need to change in two places by replacing `portMAX_DELAY` with `15000`
 
 ## License
 
