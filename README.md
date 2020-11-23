@@ -52,6 +52,9 @@ https://neosensory.com/legal/dev-terms-service.
 
 See [LICENSE](https://github.com/neosensory/neosensory-sdk-esp32/blob/master/LICENSE).
 
+## Want to contribute?
+This library is open source and help developer get started with ESP32 and Neosensory Buzz. This library has some glitches and would need help from developer community. I would not able to maintain this repo actively due to time constraint and I would appreciate if anyone wants to contribute to this repo. Please feel free to send PR. 
+
 ## Author
 
 Originally created by Mithun Das.
